@@ -54,6 +54,7 @@ out.headline = {
   certified_auto_rate_heldout: b41.live[key].heldOut.coverage,
   certified_error_heldout: b41.live[key].heldOut.error,
   certified_threshold: b41.live[key].lambda,
+  certified_mean_auto_rate_over_draws: b41.sims[key].certified.coverage,
   certified_violation_rate_over_draws: b41.sims[key].certified.violation,
   naive_violation_rate_over_draws: b41.sims[key].naive.violation,
   fixed_0_8_error_heldout: b41.live[key].fixed.heldOut.error,
