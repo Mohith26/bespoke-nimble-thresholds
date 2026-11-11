@@ -187,7 +187,7 @@ function compareRow(name, sub, t, held, sim, cls = "") {
 
 function riskChart(r, s) {
   // Held-out error vs automation along the grid, the labels' upper bound, and the three thresholds.
-  const W = 640, H = 300, L = 52, R = 16, T = 16, B = 40;
+  const W = 600, H = 300, L = 48, R = 14, T = 16, B = 40;
   const pts = GRID.map((t, j) => {
     const h = evaluate(r.test, t);
     const ub = r.c.nAcc[j] ? binomUpper(r.c.nErr[j], r.c.nAcc[j], r.c.level) : null;

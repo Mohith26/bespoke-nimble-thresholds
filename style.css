@@ -207,7 +207,7 @@ button { font: inherit; color: inherit; }
 .compare td.name { font-weight: 500; }
 .compare td.name .muted { font-weight: 400; font-size: 12.5px; display: block; }
 .compare tr.cert td { background: hsl(var(--brand-mint) / .45); }
-.chart text { font-family: var(--font-mono); font-size: 11px; fill: hsl(var(--brand-teal) / .85); }
+.chart text { font-family: var(--font-mono); font-size: 11.5px; fill: hsl(var(--brand-teal) / .85); }
 .chart .axis { stroke: hsl(var(--border)); }
 .chart .gridline { stroke: hsl(var(--border) / .8); stroke-dasharray: 2 3; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; color: hsl(var(--brand-teal) / .9); margin-top: 8px; }
